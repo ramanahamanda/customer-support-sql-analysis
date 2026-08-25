@@ -1,0 +1,21 @@
+ticket_id,customer_name,email,region,category,priority,status,channel,resolution_hours,satisfaction_score
+1001,Amina Patel,amina.patel@example.com,Canada,Billing,High,Resolved,Email,5,4
+1002,Daniel Moore,daniel.moore@example.com,USA,Technical,Medium,Resolved,Chat,12,5
+1003,Sophie Martin,sophie.martin@example.com,Canada,Account Access,High,Open,Phone,,
+1004,Marc Tremblay,marc.t@example.com,Canada,Billing,Low,Resolved,Email,20,3
+1005,Priya Shah,priya.shah@example.com,UK,Technical,High,Resolved,Chat,3,5
+1006,Lucas Bernard,lucas.bernard@example.com,France,General Inquiry,Low,Closed,Phone,8,4
+1007,Nadia Ali,nadia.ali@example.com,Canada,Account Access,Medium,Resolved,Email,15,4
+1008,Chris Wong,chris.wong@example.com,USA,Technical,High,Open,Chat,,
+1009,Elena Rossi,elena.rossi@example.com,Italy,Billing,Medium,Resolved,Email,10,2
+1010,Jean Dupont,jean.dupont@example.com,France,General Inquiry,Low,Closed,Phone,6,5
+1011,Maya Singh,maya.singh@example.com,Canada,Technical,Medium,Resolved,Chat,9,4
+1012,Olivier Roy,olivier.roy@example.com,Canada,Billing,High,Resolved,Phone,4,5
+1013,Leila Hassan,leila.hassan@example.com,UK,Account Access,High,Resolved,Email,7,4
+1014,Sam Wilson,sam.wilson@example.com,USA,General Inquiry,Medium,Open,Chat,,
+1015,Fatima Noor,fatima.noor@example.com,Canada,Technical,Low,Resolved,Phone,18,3
+1016,Alex Chen,alex.chen@example.com,Canada,Billing,Medium,Closed,Chat,11,4
+1017,Marie Laurent,marie.laurent@example.com,France,Account Access,Low,Resolved,Email,13,5
+1018,Noah Smith,noah.smith@example.com,USA,Technical,High,Resolved,Phone,2,5
+1019,Emma Brown,emma.brown@example.com,UK,General Inquiry,Medium,Closed,Email,7,4
+1020,Liam Davis,liam.davis@example.com,Canada,Billing,High,Open,Chat,,
