@@ -55,6 +55,10 @@ The dataset contains 20 fictional customer support tickets with fields including
 
 ## Example Insights
 
+- The dataset contains customer support tickets across several categories, priorities, regions, and support channels.
+- High-priority tickets appear across Billing, Technical, and Account Access issues.
+- There are 8 high priority tickets, only 3 of which are open.
+- There are 2 resolved technical tickets from Canada.
 - Technical and Billing tickets represent a large share of support volume.
 - High-priority tickets tend to receive faster resolution.
 - Some categories show lower satisfaction despite acceptable resolution times.
