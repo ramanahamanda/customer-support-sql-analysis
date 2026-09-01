@@ -55,7 +55,7 @@ The dataset contains 20 fictional customer support tickets with fields including
 
 ## Example Insights
 
-| #  | Analysis                                  | GitHub description                                                                                                                                                                         |
+| #  | Analysis                                  |Description                                                                                                                                                                         |
 | -- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1  | **Dataset Overview**                      | Retrieved a sample of customer support records to understand the dataset structure, including ticket categories, priorities, status, channels, resolution times, and satisfaction scores.  |
 | 2  | **High-Priority Ticket Analysis**         | Filtered the dataset to identify high-priority support tickets, helping highlight customer issues requiring greater urgency and attention.                                                 |
