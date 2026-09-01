@@ -81,12 +81,8 @@ The dataset contains 20 fictional customer support tickets with fields including
 - Resolution time ranges between 2 to 20 hours.
 - Account Access tickets had the longest average resolution time at 11.67 hours, while General Inquiry tickets had the shortest at 7 hours.
 - Billing satisfaction scores averaged at the lowest value, suggesting that the customer experience for billing inquiries may warrant further investigation. Account access, general inquiry and technical tickets also scored an average that is just under the benchmark of 4.5.
-- Resolution Speed Classification: Used a CASE statement to segment customer support tickets into Fast (≤5 hours), Moderate (6–12 hours), Slow (>12 hours), and Not Resolved categories. This makes it easier to identify tickets experiencing longer resolution times.Technical and Billing tickets represent a large share of support volume.
-
-- Ticket Priority Analysis: Used a CASE statement to classify tickets into Urgent, Standard, and Low Priority tiers based on their original priority level. I then counted the number of tickets in each tier to understand the distribution of support workload by urgency.
- The analysis shows the proportion of the support workload that requires urgent attention versus standard or low-priority handling. This can help support teams assess staffing needs and prioritize resources.
-
-- Customer Name Search: Used the LIKE operator with the % wildcard to identify customers whose names begin with the letter “M”, demonstrating pattern matching and text-based filtering in SQL.
+- Technical and Billing tickets represent a large share of support volume.
+-  The analysis shows the proportion of the support workload that requires urgent attention versus standard or low-priority handling. This can help support teams assess staffing needs and prioritize resources.
 
 
 SQL skill demonstrated: WHERE, LIKE, % wildcard, SELECT.
