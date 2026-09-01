@@ -59,7 +59,25 @@ The dataset contains 20 fictional customer support tickets with fields including
 - High-priority tickets appear across Billing, Technical, and Account Access issues.
 - There are 8 high priority tickets, only 3 of which are open.
 - There are 2 resolved technical tickets from Canada.
-- Technical and Billing tickets represent a large share of support volume.
+- Resolution time ranges between 2 to 20 hours.
+- Account Access tickets had the longest average resolution time at 11.67 hours, while General Inquiry tickets had the shortest at 7 hours.
+- Billing satisfaction scores averaged at the lowest value, suggesting that the customer experience for billing inquiries may warrant further investigation. Account access, general inquiry and technical tickets also scored an average that is just under the benchmark of 4.5.
+- Resolution Speed Classification: Used a CASE statement to segment customer support tickets into Fast (≤5 hours), Moderate (6–12 hours), Slow (>12 hours), and Not Resolved categories. This makes it easier to identify tickets experiencing longer resolution times.Technical and Billing tickets represent a large share of support volume.
+
+6. **Ticket Priority Analysis:** Used a CASE statement to classify tickets into Urgent, Standard, and Low Priority tiers based on their original priority level. I then counted the number of tickets in each tier to understand the distribution of support workload by urgency.
+**Business Question #**
+How is the customer support workload distributed across different priority levels?
+ **Business Insight : **
+ The analysis shows the proportion of the support workload that requires urgent attention versus standard or low-priority handling. This can help support teams assess staffing needs and prioritize resources.
+
+Customer Name Search: Used the LIKE operator with the % wildcard to identify customers whose names begin with the letter “M”, demonstrating pattern matching and text-based filtering in SQL.
+
+Business question:
+
+Which customers have names beginning with “M”?
+
+SQL skill demonstrated: WHERE, LIKE, % wildcard, SELECT.
+ 
 - High-priority tickets tend to receive faster resolution.
 - Some categories show lower satisfaction despite acceptable resolution times.
 - CASE statements convert resolution times into useful service-level categories.
